@@ -1,6 +1,8 @@
 package String_and_StringBuilder;
 
+import java.util.Deque;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class StringCompressionHM {
@@ -14,6 +16,7 @@ public class StringCompressionHM {
 
     public static String compressString(String str){
         HashMap<Character,Integer> hm = new HashMap<>();
+
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
